@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#79a951"
+        android:gravity="right">
+
+        <ImageButton
+            android:id="@+id/cerrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="7dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/boton_redondo"
+            android:src="@drawable/tache" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bambu_perfil"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:weightSum="7">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp">
+
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/botonparaagregarfoto"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:src="@drawable/pedir_foto"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#FF000000"/>
+
+            <TextView
+                android:id="@+id/tomarfoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="Tomar \n fotografía"
+                android:textAlignment="center"
+                android:textColor="#7a9434"
+                android:textSize="25sp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".9">
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.19"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/asignarnombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true"
+                    android:hint="@string/Nombre"
+                    android:inputType="textCapSentences"
+                    android:textAlignment="textStart"
+                    android:textColor="#7f7f7f"
+                    android:textColorHint="#7f7f7f"
+                    android:textSize="25sp" />
+
+                <EditText
+                    android:id="@+id/asignarapellidos"
+                    android:layout_width="match_parent"
+                    android:imeOptions="actionNext"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:hint="@string/Apellido"
+                    android:inputType="textCapSentences"
+                    android:textAlignment="textStart"
+                    android:textColor="#7f7f7f"
+                    android:textColorHint="#7f7f7f"
+                    android:textSize="25sp" />
+
+                <EditText
+                    android:id="@+id/asignararea"
+                    android:layout_width="match_parent"
+                    android:imeOptions="actionNext"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:layout_marginTop="5dp"
+                    android:hint="@string/area"
+                    android:inputType="textCapSentences"
+                    android:textAlignment="textStart"
+                    android:textColor="#7A9434"
+                    android:textColorHint="#7A9434"
+                    android:textSize="15sp" />
+                <EditText
+                    android:id="@+id/pedircorreoelectronico"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionNext"
+                    android:layout_marginTop="5dp"
+                    android:hint="@string/correo"
+                    android:singleLine="true"
+                    android:textAlignment="textStart"
+                    android:textColor="#7A9434"
+                    android:textColorHint="#7A9434"
+                    android:textSize="15sp"
+                    android:inputType="textEmailAddress"/>
+
+                <EditText
+                    android:id="@+id/asignarcontraseña"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/Designar_Cotraseña"
+                    android:inputType="textPassword"
+                    android:imeOptions="actionDone"
+                    android:singleLine="true"
+                    android:textAlignment="textStart"
+                    android:textColor="#7A9434"
+                    android:textColorHint="#7A9434"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/botonfinalparaagregar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_boarder"
+                    android:text="@string/Agregar"
+                    android:textStyle="bold" />ewh wthnhtert4htwEFGEACVRE
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".9">
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

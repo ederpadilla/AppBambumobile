@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">App Bambú Mobile</string>
+    <string name="frase_inicial">\"La cienca no es si no una perversión de si misma,\n a menos
+    que  tenga como objetivo final el mejoramiento de la humanidad.\"
+    </string>
+    <string name="autor">Nikola Tesla</string>
+    <string name="input">Contraseña</string>
+    <string name="Nombre">NOMBRE</string>
+    <string name="Apellido">APELLIDOS</string>
+    <string name="area">ÁREA</string>
+    <string name="correo">CORREO ELECTRÓNICO</string>
+    <string name="pedir_pass">Ingresa tu contraseña de administrador</string>
+    <string name="check_in">CHECK-IN</string>
+    <string name="check_out">CHECK-OUT</string>
+    <string name="borrar_empleado">¿Quieres borrar este empleado?</string>
+    <string name="contraseña_empleado">¿Quieres cambiar la contraseña\n de este empleado?</string>
+    <string name="Agregar_empleado">AGREGAR EMPLEADO</string>
+    <string name="Siguienteparaagregar">SIGUIENTE</string>
+    <string name="Designar_Cotraseña">DESIGNAR CONTRASEÑA</string>
+    <string name="Agregar">AGREGAR</string>
+    <string name="Usuario_Agregado">USUARIO AGREGADO</string>
+    <string name="Usuario_Borrado">USUARIO BORRADO</string>
+    <string name="Aceptar">ACEPTAR</string>
+
+
+</resources>

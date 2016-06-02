@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".8"
+        android:weightSum="2"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:background="#ffffff">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+            android:id="@+id/fondoprincipal"
+                android:src="@drawable/fondosuperbien"
+                android:scaleType="matrix"/>
+    <ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:src="@drawable/fondo"
+    android:layout_gravity="center"
+        />
+</RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.1"
+        android:background="#fefefe"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/frase_inicial"
+            android:text="@string/frase_inicial"
+            android:textAlignment="center"
+            android:textColor="#79a951"
+            android:textSize="28sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:id="@+id/autor"
+            android:text="@string/autor"
+            android:textColor="#7f7f7f"
+
+
+            android:textSize="30sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.4"
+        android:weightSum="3"
+        android:background="#fefefe"
+        android:orientation="horizontal"
+        >
+
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="100dp"
+            android:layout_weight="5"
+            android:id="@+id/scroll"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:id="@+id/linearlay"
+                android:layout_marginBottom="15dp"
+
+                >
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/agregar"
+            android:layout_weight="1"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@drawable/plus"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="30dp"
+        android:background="#79a951"
+        android:gravity="right">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tache"
+            android:id="@+id/cerrar"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/boton_redondo"
+            android:layout_marginRight="7dp"
+            /></LinearLayout>
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="190dp"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/correcto"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HASTA LUEGO"
+            android:textSize="25sp"
+            android:textColor="#666863"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nombre"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:textColor="#666863"
+            />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

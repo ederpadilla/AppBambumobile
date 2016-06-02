@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+<LinearLayout
+    android:layout_width="400dp"
+    android:layout_height="30dp"
+    android:background="#79a951"
+    android:gravity="right">
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tache"
+        android:id="@+id/cerrar"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/boton_redondo"
+        android:layout_marginRight="7dp"
+      />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="190dp"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="#666863"
+            android:text="@string/Agregar_empleado"
+            android:id="@+id/dialogoagregareliminar"
+            android:textSize="20sp"
+            android:textAlignment="center" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="10sp"
+            android:drawableLeft="@drawable/can"
+            android:drawablePadding="2.5dip"
+            android:inputType="textPassword"
+            android:id="@+id/passwordparaagregarempleado"
+            android:hint="@string/pedir_pass"
+
+            android:textColor="#666863"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:textColorHint="#666863" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:textColor="#fbfbfb"
+            android:id="@+id/siguientepasodeagregar"
+            android:text="@string/Siguienteparaagregar"
+            android:background="@drawable/button_boarder" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
